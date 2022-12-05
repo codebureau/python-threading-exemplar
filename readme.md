@@ -16,14 +16,14 @@ The actual problem I'm trying to solve (the reason for doing this), is the follo
 So the need here is to (in the most performant way)...
 
 1. Call the API (json) and get response (we only 'want' the 'next page' token)
-2. For each 'page' in the list - call the API to get corresponding (csv) 
+2. For each 'page' in the whols chain - call the API to get corresponding (csv) 
 3. Return the 'combined' csv, and make sure any errors/threads are neatly handled
 
 # Options
 
 ## Daemon Thread
 
-The first example will go eu natural, and utilise standard python threading features.  
+The first example will go au naturel, and utilise standard python threading features.  
 
 This utilises the excellent information here...
 https://superfastpython.com/thread-triggered-background-task/
